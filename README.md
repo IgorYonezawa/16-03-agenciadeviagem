@@ -136,7 +136,7 @@ O banco de dados utilizando o BRModelo, criando os modelos conceitual e lógico.
 
 #### Modelo Físico
 
-Pode ser encontrado em `Database/database.sql`
+Pode ser encontrado em <a href="https://github.com/IgorYonezawa/16-03-agenciadeviagem/blob/main/modelagemBD/modelo%20fisico.sql">./modelagemBD/modelo fisico.sql</a>
 
 ### Versionamento
 
