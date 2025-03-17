@@ -47,7 +47,7 @@ Este é um projeto individual desenvolvido para o curso da Recode Pro. O objetiv
 
 
 
-## Desenvolvimento da Solução
+## 2.Desenvolvimento
 
 ## Imagens do Projeto
 
@@ -66,7 +66,7 @@ Este é um projeto individual desenvolvido para o curso da Recode Pro. O objetiv
     </tbody>
 </table>
 
-### Estrutura de Pastas
+## 3.Estrutura de Pastas
 
 ```
 ➜  tree
@@ -122,9 +122,34 @@ projeto-agencia-viagens
 
 Um site funcional e responsivo com 1 página, 3 linguas(<img src="./imagens/bandeiras/br@.png" alt="br" width="18" height="12">|<img src="./imagens/bandeiras/es@.png" alt="esp" width="18" height="12">|<img src="./imagens/bandeiras/us@.png" alt="usa" width="18" height="12">), utilizando HTML, CSS, JS e Bootstrap.
 
-### Banco de Dados
+## 4.Planejamento do Banco de Dados
 
-O banco de dados utilizando o BRModelo, criando os modelos conceitual e lógico. O script SQL das tabelas foi gerado e está disponível no repositório.
+O planejamento do banco de dados inclui a definição das tabelas e seus relacionamentos para armazenar informações relevantes da agência de viagens. Aqui está um esboço das tabelas principais:
+
+### Tabelas Principais
+**Destinos:**
+
+Armazena informações sobre os destinos de viagem.
+
+Campos: `id`, `cidade`, `acomodacoes`, `imagem`.
+
+**Ofertas:**
+
+Armazena informações sobre as ofertas de viagem.
+
+Campos: `id`, `nome`, `local`, `avaliacao`, `reviews`, `precoOriginal`, `precoPromo`, `imagem`, `destino_id` (chave estrangeira para Destinos).
+
+**Acomodacoes:**
+
+Armazena informações sobre as acomodações disponíveis.
+
+Campos: `id`, `nome`, `local`, `avaliacao`, `reviews`, `preco`, `imagem`, `oferta_id` (chave estrangeira para Ofertas).
+
+### Relacionamentos
+
+Um Destino pode ter várias Ofertas (relacionamento **1** para **N**).
+
+Uma Oferta pode ter várias Acomodações (relacionamento **1** para **N**).
 
 #### Modelo Conceitual
 
@@ -132,7 +157,7 @@ O banco de dados utilizando o BRModelo, criando os modelos conceitual e lógico.
 
 #### Modelo Logico
 
-![image]()
+![image](https://github.com/IgorYonezawa/16-03-agenciadeviagem/blob/main/modelagemBD/modelo%20logico.png)
 
 #### Modelo Físico
 
