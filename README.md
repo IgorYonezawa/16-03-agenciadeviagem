@@ -104,6 +104,7 @@ projeto-agencia-viagens
 │   ├── Desktop.png
 │   ├── Mobile.png
 │   ├── AçaíSlayerStudio.png
+│   ├── bandeira-do-para.png
 ├── modelagemBD
 │   ├── diagrama_conceitual.png    # Diagrama conceitual do banco de dados
 │   ├── diagrama_logico.png        # Diagrama lógico do banco de dados
@@ -112,7 +113,7 @@ projeto-agencia-viagens
 ├── index.html                    # Página inicial do projeto
 └── README.md                     # Este arquivo
 
-10 directories, 31 files
+10 directories, 32 files
 ```
 
 ### Site Responsivo
