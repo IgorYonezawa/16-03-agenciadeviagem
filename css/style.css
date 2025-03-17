@@ -1,0 +1,149 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.search-form {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.card {
+    transition: transform 0.2s;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+
+    position: relative;
+    z-index: 2;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+}
+
+.bg-primary {
+    background-color: #381774 !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3c1485;
+    --bs-btn-border-color: #3c1485;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #250f4e;
+    --bs-btn-hover-border-color: #250f4e;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #250f4e;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #3c1485;
+    --bs-btn-disabled-border-color: #3c1485;
+}
+
+.h1.display-4 {
+
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg');
+    background: linear-gradient(#381774, #301e7279), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hero-image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-image {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: auto;
+    animation: scrollImage 1580s linear infinite;
+}
+
+@keyframes scrollImage {
+    0% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+    100% {
+        transform: translateX(50%) translateY(-50%);
+    }
+}
+
+.navbar .dropdown-menu {
+    max-height: 400px;
+    overflow-y: auto;
+    width: 250px;
+}
+
+.navbar .dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+.navbar .dropdown-item img {
+    margin-right: 10px;
+}
+
+.navbar .dropdown-header {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .dropdown-divider {
+    margin: 0.25rem 0;
+}
+
+/* Ajustes para o ícone da bandeira */
+.navbar .nav-link img {
+    vertical-align: text-top;
+}
+
+.circle-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
