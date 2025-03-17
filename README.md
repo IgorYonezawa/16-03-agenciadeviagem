@@ -69,8 +69,6 @@ Este é um projeto individual desenvolvido para o curso da Recode Pro. O objetiv
 ## 3.Estrutura de Pastas
 
 ```
-➜  tree
-.
 projeto-agencia-viagens
 ├── css
 │   └── style.css                 # Arquivo de estilos CSS
@@ -115,7 +113,7 @@ projeto-agencia-viagens
 ├── index.html                    # Página inicial do projeto
 └── README.md                     # Este arquivo
 
-10 directories, 28 files
+10 directories, 31 files
 ```
 
 ### Site Responsivo
