@@ -46,7 +46,6 @@ Este é um projeto individual desenvolvido para o curso da Recode Pro. O objetiv
 
 
 
-
 ## 2.Desenvolvimento
 
 ## Imagens do Projeto
@@ -151,7 +150,7 @@ Uma Oferta pode ter várias Acomodações (relacionamento **1** para **N**).
 
 #### Modelo Conceitual
 
-![image]()
+![image](https://github.com/IgorYonezawa/16-03-agenciadeviagem/blob/main/modelagemBD/modelo%20conceitual.png)
 
 #### Modelo Logico
 
