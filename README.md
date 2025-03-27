@@ -176,3 +176,7 @@ Utilizei Git para versionar o projeto, com commits organizados e publicados em u
 ## Link do Projeto
 
 > <a href="https://saboreieopara.netlify.app/">Link do site</a>
+
+## Link do Video
+
+> <a href="https://www.loom.com/share/8ebff2de53fb4bc6962f33190bf7f403">Link do video</a>
